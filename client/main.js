@@ -10,7 +10,7 @@ const view = (model, dispatch) => html`
     ${navigation}
     <h1>${DOMAIN} view</h1>
 
-    <a href="rsvp">rsvp link</a> <br />
+    <a href='rsvp' class='button'>rsvp link</a> <br />
     January 10th 2016 <br />
     Map <br />
 
