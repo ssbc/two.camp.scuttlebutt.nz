@@ -8,11 +8,11 @@ import rsvp from './rsvp'
  
  
 const app = App([
-  main,
   about,
   logistics,
   gifts,
-  rsvp
+  rsvp,
+  main,  // will default to this route
 ])
 
 export default app
