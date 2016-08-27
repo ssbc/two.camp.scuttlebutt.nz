@@ -29,7 +29,9 @@ const view = (model, dispatch) => html`
 `
 
 const view2 = (model, dispatch) => html`
-  back here!
+  <div>
+    back here!
+  </div>
 `
  
 const counter = Domain({
