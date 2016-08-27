@@ -1,5 +1,15 @@
+import { start, pull } from 'inu'
+import html from 'yo-yo'
 
-const test = () => console.log('working')
+import app from './App'
 
-test()
+const { views } = start(app)
+const main = document.querySelector('.main')
+
+pull(
+  views(),
+  pull.drain(function (view) {
+    html.update(main, view)
+  })
+) 
 
