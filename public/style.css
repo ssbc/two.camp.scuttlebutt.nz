@@ -3,3 +3,11 @@ body {
   padding: 20px;
 }
 
+.nav-bar {
+  max-width: 360px; 
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
