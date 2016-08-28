@@ -21,7 +21,7 @@ const view = (model, dispatch) => html`
 export default Domain({
   name: DOMAIN,
   routes: [
-    ['', (params, model, dispatch) => {
+    ['/', (params, model, dispatch) => {
       return view(model, dispatch)
     }],
   ]

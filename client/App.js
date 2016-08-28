@@ -7,13 +7,11 @@ import gifts from './gifts'
 import rsvp from './rsvp'
  
  
-const app = App([
+export default App([
   about,
   logistics,
   gifts,
   rsvp,
   main,  // will default to this route
 ])
-
-export default app
 
