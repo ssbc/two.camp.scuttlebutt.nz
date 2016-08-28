@@ -7,13 +7,24 @@ const DOMAIN = 'about'
 
 const view = (model, dispatch) => html`
   <div>
-    ${navigation}
+    ${navigation()}
     <h1>${DOMAIN} view</h1>
 
-    vibe / intention <br />
-    programme <br />
-    cultural glossary <br />
-    what to wear
+    <div>
+      <h2>vibe / intention</h2>
+    </div>
+
+    <div>
+      programme 
+    </div>
+
+    <div>
+      cultural glossary 
+    </div>
+
+    <div>
+      what to wear
+    </div>
 
   </div>
 `

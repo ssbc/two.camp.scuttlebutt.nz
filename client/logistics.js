@@ -7,14 +7,24 @@ const DOMAIN = 'logistics'
 
 const view = (model, dispatch) => html`
   <div>
-    ${navigation}
+    ${navigation()}
     <h1>${DOMAIN} view</h1>
 
-    transport <br />
-    accomidation <br />
-    international <br />
-    venue <br />
-    what to bring  (should what to wear be in here?)
+    <div>
+      transport 
+    </div>
+    <div>
+      accomidation 
+    </div>
+    <div>
+      international 
+    </div>
+    <div>
+      venue 
+    </div>
+    <div>
+      what to bring  (should what to wear be in here?)
+    </div>
 
   </div>
 `

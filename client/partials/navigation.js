@@ -14,7 +14,7 @@ const link = (title) => {
   `
 }
 
-export default html`
+export default () =>  html`
   <div class='nav-bar row'>
     ${navRoutes.map( route => link(route) )}
   </div>

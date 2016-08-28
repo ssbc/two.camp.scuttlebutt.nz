@@ -7,12 +7,18 @@ const DOMAIN = 'gifts'
 
 const view = (model, dispatch) => html`
   <div>
-    ${navigation}
+    ${navigation()}
     <h1>${DOMAIN} view</h1>
 
-    presents <br />
-    BYO alcohol <br />
-    house fund <br />
+    <div>
+      presents 
+    </div>
+    BYO <div>
+      alcohol 
+    </div>
+    <div>
+      house fund 
+    </div>
     
   </div>
 `

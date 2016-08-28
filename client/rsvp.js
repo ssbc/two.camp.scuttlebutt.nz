@@ -7,10 +7,12 @@ const DOMAIN = 'rsvp'
  
 const view = (model, dispatch) => html`
   <div>
-    ${navigation}
+    ${navigation()}
     <h1>${DOMAIN} view</h1>
 
-    google form embed
+    <div>
+      google form embed
+    </div>
 
   </div>
 `
