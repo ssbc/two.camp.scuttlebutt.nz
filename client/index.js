@@ -3,8 +3,8 @@ import html from 'yo-yo'
 
 import app from './App'
 
-const { views } = start(app)
 const main = document.querySelector('.main')
+const { views } = start(app)
 
 pull(
   views(),

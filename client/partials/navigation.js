@@ -1,22 +1,25 @@
 import html from 'yo-yo'
 
-const navRoutes = "Main About Logistics Gifts".split(' ')
+const navTitles = "Main About Logistics Gifts RSVP".split(' ')
 
-const link = (title) => {
+const link = (title, activePath) => {
   const path = title === 'Main' ? '' : title.toLowerCase()
+  const activePathClass = path === activePath ? 'activePath' : ''
+
+  const cols = title === 'Logistics' ? 'three' : 'two'
 
   return html`
-    <div class='three columns'>
-      <a href='/${path}'>
+    <div class='${cols} columns'>
+      <a href='/${path}' class='${activePathClass}'>
         ${title}
       </a>
     </div>
   `
 }
 
-export default () =>  html`
+export default (activePath) =>  html`
   <div class='nav-bar row'>
-    ${navRoutes.map( route => link(route) )}
+    ${navTitles.map( title => link(title, activePath) )}
   </div>
 `
 

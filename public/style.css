@@ -7,7 +7,17 @@ body {
   max-width: 360px; 
 }
 
+.nav-bar {
+  padding-bottom: 20px;
+
+}
+
 .nav-bar a {
   text-decoration: none;
+}
+
+.nav-bar a.activePath {
+  color: grey;
+  border-bottom: 1px solid grey;
 }
 

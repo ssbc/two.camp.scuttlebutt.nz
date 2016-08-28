@@ -1,17 +1,16 @@
 import { App } from 'inux'
 
-import main from './main'
-import about from './about'
-import logistics from './logistics'
-import gifts from './gifts'
-import rsvp from './rsvp'
- 
- 
+import about from './domains/about'
+import logistics from './domains/logistics'
+import gifts from './domains/gifts'
+import rsvp from './domains/rsvp'
+import main from './domains/main'
+
 export default App([
   about,
   logistics,
   gifts,
   rsvp,
-  main,  // will default to this route
+  main,  // this will be the default view
 ])
 

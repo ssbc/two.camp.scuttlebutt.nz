@@ -1,15 +1,12 @@
 import html from 'yo-yo'
 import { Domain } from 'inux'
 
-import navigation from './partials/navigation'
+import render from '../helpers/render'
  
-const DOMAIN = 'about'
+const NAME = 'about'
 
-const view = (model, dispatch) => html`
+const view = (params, model, dispatch) => html`
   <div>
-    ${navigation()}
-    <h1>${DOMAIN} view</h1>
-
     <div>
       <h2>vibe / intention</h2>
     </div>
@@ -25,16 +22,13 @@ const view = (model, dispatch) => html`
     <div>
       what to wear
     </div>
-
   </div>
 `
 
 export default Domain({
-  name: DOMAIN,
+  name: NAME,
   routes: [
-    [DOMAIN, (params, model, dispatch) => {
-      return view(model, dispatch)
-    }],
+    [NAME, render(view)],
   ]
 })
  
