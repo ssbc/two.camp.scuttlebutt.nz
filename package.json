@@ -33,7 +33,6 @@
   "devDependencies": {
     "gh-pages": "^0.11.0",
     "inux": "^2.0.6",
-    "nodemon": "^1.10.2",
     "watchify": "^3.7.0",
     "yo-yo": "^1.2.2"
   }
