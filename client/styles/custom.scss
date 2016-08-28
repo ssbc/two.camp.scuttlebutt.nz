@@ -1,0 +1,21 @@
+$font-stack:   Helvetica, sans-serif;
+$active-color: grey;
+
+body {
+  padding: 20px;
+}
+
+.nav-bar {
+  max-width: 360px; 
+  padding-bottom: 20px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .activePath {
+    color: $active-color;
+    border-bottom: 1px solid $active-color;
+  }
+}
+
