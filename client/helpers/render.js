@@ -7,8 +7,10 @@ const activePath = (model) => model.href.match(/[^\/]*$/)[0]
 export default (view) => (params, model, dispatch) => { 
   return html`
     <div>
-      <nav>${navigation(activePath(model))}</nav>
-      ${view(params, model, dispatch)}
+      ${navigation(activePath(model))}
+      <div class='content'>
+        ${view(params, model, dispatch)}
+      </div>
     </div>
   `
 }

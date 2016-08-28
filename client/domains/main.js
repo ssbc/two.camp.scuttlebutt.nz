@@ -8,14 +8,18 @@ const NAME = 'main'
  
 const view = (params, model, dispatch) => html`
   <div>
-    <div>
-      <a href='rsvp' class='button'>rsvp link</a> 
+    <div class='row'>
+      <div class='twelve columns'>
+        <a href='rsvp' class='button'>rsvp</a> 
+       </div>
     </div>
-    <div>
+    <div class='row'>
       January 10th 2016 
     </div>
 
-    ${map()}
+    <div class='row'>
+      ${map()}
+    </div>
   </div>
 `
 

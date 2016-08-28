@@ -6,10 +6,8 @@ const link = (title, activePath) => {
   const path = title === 'Main' ? '' : title.toLowerCase()
   const activePathClass = path === activePath ? 'activePath' : ''
 
-  const cols = title === 'Logistics' ? 'three' : 'two'
-
   return html`
-    <div class='${cols} columns'>
+    <div class='nav-item'>
       <a href='/${path}' class='${activePathClass}'>
         ${title}
       </a>
@@ -18,7 +16,7 @@ const link = (title, activePath) => {
 }
 
 export default (activePath) =>  html`
-  <div class='nav-bar row'>
+  <div class='nav-bar'>
     ${navTitles.map( title => link(title, activePath) )}
   </div>
 `

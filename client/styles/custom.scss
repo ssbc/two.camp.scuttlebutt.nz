@@ -1,21 +1,63 @@
 $font-stack:   Helvetica, sans-serif;
-$active-color: grey;
+$link-color: #2c3e50;
+$active-color: #8e44ad;
 
 body {
-  padding: 20px;
 }
 
 .nav-bar {
-  max-width: 360px; 
-  padding-bottom: 20px;
+  position: fixed
+  top: 0
+  background-color: #fff
+
+  margin: 0 1rem
+  padding-top: 1rem
+  padding-bottom: 0.5rem
+  width: 100%
+
+  .nav-item {
+    float: left
+    margin-right: 2rem
+  }
 
   a {
-    text-decoration: none;
-  }
+    color: $link-color
+    text-decoration: none
 
-  .activePath {
-    color: $active-color;
-    border-bottom: 1px solid $active-color;
+    &.activePath {
+      color: $active-color
+      border-bottom: 1px solid $active-color
+    }
   }
 }
+
+.content {
+  padding-top: 5rem
+
+  > div {
+    margin: 0 1rem
+
+    &.rsvp {
+      margin: 0
+    }
+
+  }
+
+  .map {
+    background-color: #eee;
+
+    iframe {
+      width: 100%
+    }
+
+
+
+  }
+
+  .rsvp iframe {
+    width: 100%
+  }
+
+}
+
 
