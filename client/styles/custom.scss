@@ -2,22 +2,38 @@ $font-stack:   Helvetica, sans-serif;
 $link-color: #2c3e50;
 $active-color: #8e44ad;
 
-body {
+.center {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.nav-background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  height: 4rem;
+
+  background: #fff;
 }
 
 .nav-bar {
   position: fixed;
   top: 0;
-  background-color: #fff;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 32rem;
 
-  margin: 0 1rem;
+  margin: 0 auto;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
-  width: 100%;
+
+  background-color: #fff;
 
   .nav-item {
     float: left;
-    margin-right: 2rem;
+    margin: 0 1rem;
   }
 
   a {
@@ -32,7 +48,14 @@ body {
 }
 
 .content {
-  padding-top: 5rem;
+  padding-top: 6rem;
+  max-width: 600px;
+  margin: 0 auto;
+
+
+  .sub-section {
+    margin-bottom: 5rem;
+  }
 
   > div {
     margin: 0 1rem;
@@ -43,20 +66,34 @@ body {
 
   }
 
+  .rsvp-link {
+    padding-bottom: 4rem;
+
+    a {
+      padding-bottom: 1rem;
+    }
+  }
+
   .map {
-    background-color: #eee;
+    background-image: url(ring.gif);
+    background-repeat: no-repeat;
+    background-position: center 10%;
 
     iframe {
       width: 100%;
     }
-
-
-
   }
 
-  .rsvp iframe {
-    width: 100%;
+  .rsvp {
+    background-image: url(ring.gif);
+    background-repeat: no-repeat;
+    background-position: center 10%;
+
+    iframe {
+      width: 100%;
+    }
   }
 
 }
+
 

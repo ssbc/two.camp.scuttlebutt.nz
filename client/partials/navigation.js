@@ -16,8 +16,10 @@ const link = (title, activePath) => {
 }
 
 export default (activePath) =>  html`
-  <div class='nav-bar'>
-    ${navTitles.map( title => link(title, activePath) )}
+  <div class='nav-background'>
+    <div class='nav-bar'>
+      ${navTitles.map( title => link(title, activePath) )}
+    </div>
   </div>
 `
 
