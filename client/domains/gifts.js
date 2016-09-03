@@ -18,6 +18,10 @@ const view = (params, model, dispatch) => html`
     </div>
 
     <div class='sub-section'>
+      <img src='images/face.jpg' />
+    </div>
+
+    <div class='sub-section'>
       <p>
         <em>
           If you’re one of those stubbornly generous types and really want to gift something directly, please contributions to our house fund:

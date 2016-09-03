@@ -56,9 +56,14 @@ html {
 
 .content {
   padding-top: 6rem;
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
 
+
+  img {
+    max-width: 100%;
+    min-height: 168px;
+  }
 
   .sub-section {
     margin-bottom: 3rem;
@@ -87,12 +92,13 @@ html {
     padding-bottom: 4rem;
 
     a {
+      font-size: 1.3rem;
       padding-bottom: 1rem;
     }
   }
 
   .map {
-    background-image: url(ring.gif);
+    background-image: url(images/ring.gif);
     background-repeat: no-repeat;
     background-position: center 10%;
 
@@ -102,7 +108,7 @@ html {
   }
 
   .rsvp {
-    background-image: url(ring.gif);
+    background-image: url(images/ring.gif);
     background-repeat: no-repeat;
     background-position: center 10%;
 

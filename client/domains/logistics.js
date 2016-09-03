@@ -14,6 +14,10 @@ const view = (params, model, dispatch) => html`
     </div>
 
     <div class='sub-section'>
+      <img src='images/river.jpg' />
+    </div>
+
+    <div class='sub-section'>
       <h2>Transport</h2>
       We will be arranging carpooling or a shuttle from Wellington for those who need rides. 
       Please indicate if you need or can offer a ride when you RSVP.
@@ -29,6 +33,10 @@ const view = (params, model, dispatch) => html`
       <h2>Out of Town Guests</h2>
       If you’re coming in from far away, we want to help make your trip as easy and enjoyable as possible. 
       Please get in touch with us if you need any help or information about New Zealand or Wellington.
+    </div>
+
+    <div class='sub-section'>
+      <img src='images/dressedup.jpg' />
     </div>
 
     <div class='sub-section'>

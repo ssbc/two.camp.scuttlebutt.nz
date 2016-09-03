@@ -14,7 +14,7 @@ const view = (params, model, dispatch) => html`
     </div>
     
     <div class='rsvp-link center'>
-      <div><a href='rsvp' class='button'>RSVP</a> </div>
+      <div><a href='rsvp' class='button '>RSVP</a> </div>
       <div>Please respond by 31 October.</div>
     </div>
 
