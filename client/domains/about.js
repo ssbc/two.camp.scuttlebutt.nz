@@ -18,7 +18,7 @@ const view = (params, model, dispatch) => html`
       <h2>Programme</h2>
 
       <h3>Tuesday, Jan 10</h3>
-      <h4>(all guests)</h4>
+      <p>(all guests)</p>
       <table>
         <tr>
           <td>11:00 - 12:00</td>
@@ -52,7 +52,7 @@ const view = (params, model, dispatch) => html`
 
 
       <h3>Wednesday, Jan 11 </h3>
-      <h4>(overnight guests)</h4>
+      <p>(overnight guests)</p>
 
       <table>
         <tr>
@@ -70,7 +70,7 @@ const view = (params, model, dispatch) => html`
       <h2>Ceremony</h2>
 
       <p>
-        As an international couple, our ceremony will bring together traditions from different traditions, including Jewish, Scottish, Kiwi, and our own personal touches.
+        As an international couple, our ceremony will bring together traditions from different culture, including Jewish, Scottish, Kiwi, and some of our own.
       </p>
 
       <p>
