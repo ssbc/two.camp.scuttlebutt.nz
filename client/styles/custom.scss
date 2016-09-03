@@ -1,6 +1,5 @@
-$font-stack:   Helvetica, sans-serif;
-$link-color: #2c3e50;
-$active-color: #8e44ad;
+$link_color:   #8e44ad;
+$active_color: #8e44ad;
 
 .center {
   width: 100%;
@@ -37,12 +36,16 @@ $active-color: #8e44ad;
   }
 
   a {
-    color: $link-color;
+    color: #000;
     text-decoration: none;
 
+    &:hover {
+      color: $active_color;
+      text-decoration: dotted;
+    }
+
     &.activePath {
-      color: $active-color;
-      border-bottom: 1px solid $active-color;
+      border-bottom: 1px solid $active_color;
     }
   }
 }
@@ -54,7 +57,17 @@ $active-color: #8e44ad;
 
 
   .sub-section {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  a {
+    color: $link_color;
+    text-decoration: none;
+
+    &:hover {
+      color: $active_color;
+      text-decoration: underline;
+    }
   }
 
   > div {
