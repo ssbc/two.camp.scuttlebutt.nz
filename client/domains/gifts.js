@@ -15,17 +15,17 @@ const view = (params, model, dispatch) => html`
       <p>
         We’re asking guests to BYO drinks of choice, so you could bring a little extra of your favorite to share.
       </p>
+    </div>
 
+    <div class='sub-section'>
       <p>
-        If you’re one of those stubbornly generous types and really want to give, please contribute to our house fund, to help us buy a home of our own. 
+        <em>
+          If you’re one of those stubbornly generous types and really want to gift something directly, please contributions to our house fund:
+        </em>
       </p>
-    </div>
 
-    <div class='sub-section'>
-      Paypal: <pre>kdynamic@gmail.com</pre>
-    </div>
+      Paypal: <pre>kdynamic@gmail.com</pre> <br />
 
-    <div class='sub-section'>
       NZ Bank Transfer: <pre>38-9014-0578605-03</pre>
     </div>
     

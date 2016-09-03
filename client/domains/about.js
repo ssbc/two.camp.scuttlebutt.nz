@@ -19,31 +19,31 @@ const view = (params, model, dispatch) => html`
       <p>(all guests)</p>
       <table>
         <tr>
-          <td>11:00 - 12:00</td>
+          <td>11:00 </td>
           <td> Arrival, mingling</td>
         </tr>
         <tr>
-          <td>12:00 - 13:00</td>
+          <td>12:00 </td>
           <td> Buffet lunch</td>
         </tr>
         <tr>
-          <td>13:30 - 14:00</td>
+          <td>13:30 </td>
           <td> Ceremony</td>
         </tr>
         <tr>
-          <td>14:00 - 14:30</td>
+          <td>14:00 </td>
           <td> Cake & Toasts</td>
         </tr>
         <tr>
-          <td>14:30 - 18:30</td>
+          <td>14:30 </td>
           <td> River swim, forest walks, arts & crafts, games, conversation, relaxation</td>
         </tr>
         <tr>
-          <td>18:30 - 19:30</td>
+          <td>18:30 </td>
           <td> Buffet dinner, departures of those not staying overnight</td>
         </tr>
         <tr>
-          <td>20:00 onward</td>
+          <td>20:00 +</td>
           <td> Bonfire, music jam, hanging out</td>
         </tr>
       </table>
@@ -54,11 +54,11 @@ const view = (params, model, dispatch) => html`
 
       <table>
         <tr>
-          <td>10:00 - 11:00</td>
+          <td>10:00 </td>
           <td> Slow start and fry-up brunch</td>
         </tr>
         <tr>
-          <td>11:00 - 13:00</td>
+          <td>11:00 + </td>
           <td> more hanging out, clean up, pack down, depart</td>
         </tr>
       </table>

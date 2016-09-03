@@ -9,8 +9,7 @@ const view = (params, model, dispatch) => html`
   <div>
     <div class='sub-section'>
       <h2>Venue</h2>
-      The <a href="http://www.waihoanga.co.nz" target="_blank">Waihōanga Centre for Wellbeing</a> has the intention “to provide a rich inclusive environment for deepening connection within ourselves, with others and with nature.” 
-      It’s located in Otaki Forks, outside of Wellington. 
+      The <a href="http://www.waihoanga.co.nz" target="_blank">Waihōanga Centre for Wellbeing</a> is located in Otaki Forks, outside of Wellington. 
       There’s gorgeous forest with walking tracks, a river for swimming, a ropes course, and heaps of space for activities.
     </div>
 
