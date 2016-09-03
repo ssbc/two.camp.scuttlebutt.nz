@@ -18,7 +18,7 @@ const view = (params, model, dispatch) => html`
     </div>
 
     <div class='sub-section'>
-      <img src='images/face.jpg' />
+      <img src='images/mirror.jpg' />
     </div>
 
     <div class='sub-section'>
