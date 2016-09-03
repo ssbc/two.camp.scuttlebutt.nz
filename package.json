@@ -16,7 +16,8 @@
   },
   "browserify": {
     "transform": [
-      "babelify"
+      "babelify",
+      "yo-yoify"
     ]
   },
   "keywords": [],
@@ -28,7 +29,8 @@
     "browserify": "^13.1.0",
     "express": "^4.14.0",
     "node-sass": "^3.8.0",
-    "uglifyify": "^3.0.2"
+    "uglifyify": "^3.0.2",
+    "yo-yoify": "^3.4.1"
   },
   "devDependencies": {
     "gh-pages": "^0.11.0",
