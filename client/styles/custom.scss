@@ -1,6 +1,10 @@
 $link_color:   #8e44ad;
 $active_color: #8e44ad;
 
+html {
+  overflow-y: scroll;
+}
+
 .center {
   width: 100%;
   margin: 0px auto;
@@ -105,6 +109,12 @@ $active_color: #8e44ad;
     iframe {
       width: 100%;
     }
+  }
+
+  pre {
+    display: inline;
+    margin-left: 1rem;
+
   }
 
 }

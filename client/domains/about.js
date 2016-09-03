@@ -15,9 +15,7 @@ const view = (params, model, dispatch) => html`
     </div>
 
     <div class='sub-section'>
-      <h2>Programme</h2>
-
-      <h3>Tuesday, Jan 10</h3>
+      <h2>Tuesday, Jan 10</h3>
       <p>(all guests)</p>
       <table>
         <tr>
@@ -51,7 +49,7 @@ const view = (params, model, dispatch) => html`
       </table>
 
 
-      <h3>Wednesday, Jan 11 </h3>
+      <h2>Wednesday, Jan 11 </h3>
       <p>(overnight guests)</p>
 
       <table>
