@@ -12,6 +12,9 @@ const view = (params, model, dispatch) => html`
       <p>
         Our wedding is a rare opportunity to bring together our loved ones. 
         More than anything, we want to enjoy quality time with you, and give you the chance to meet one another. 
+      </p>
+      
+      <p>
         We hope to create a relaxed and spacious atmosphere in a lovely setting, where we can linger over good food and unhurried conversation. 
         Help us celebrate our marriage by reveling in the joys of family, friends, community.
       </p>
@@ -96,19 +99,19 @@ const view = (params, model, dispatch) => html`
       </p>
 
       <p>
-        The vows will take place under a <a href="https://en.wikipedia.org/wiki/Chuppah" target="_blank">chuppah</a>, a fabric canopy symbolising the home and life the newly married couple will build together.
+        The vows will take place under a <i><a href="https://en.wikipedia.org/wiki/Chuppah" target="_blank">chuppah</a></i>, a fabric canopy symbolising the home and life the newly married couple will build together.
         The poles are held by people close to the bride and groom, who will support their union and life together.
         The side are open, to welcome people in with hospitality. 
       </p>
 
       <p>
-        We’ll drink together from a quaich, the Scottish cup of love and friendship.
+        We’ll drink together from a <i><a href="https://en.wikipedia.org/wiki/Quaich" target="_blank">quaich</a></i>, the Scottish cup of love and friendship.
         The two handles make the Quaich an ideal cup for sharing and incorporates trust between the giver and the receiver.
         Used in many ceremonies, at weddings the Quaich is seen as a symbol of the shared love between the couple.
       </p>
 
       <p>
-        At the conclusion of the ceremony, a glass will be broken and everyone can shout Mazel Tov! (congratulations).
+        At the conclusion of the ceremony, a glass will be broken and everyone can shout <i>Mazel Tov!,</i> (congratulations).
         Symbolically, it reminds us that life and love are fragile, like glass, and we must treat them with care.
         It is also the shattering of the old and the beginning of the new.
         We only know sweetness alongside bitterness, and joy alongside sorrow.
@@ -116,7 +119,7 @@ const view = (params, model, dispatch) => html`
       </p>
 
       <p>
-        Right after the ceremony, the bride and groom will retreat for a few moments to a yichud room, to spend a short secluded time together, so they can connect just to one another briefly in all the hustle and bustle of the wedding.
+        Right after the ceremony, the bride and groom will retreat for a few moments to a <i>yichud room</i>, to spend a short secluded time together, so they can connect just to one another briefly in all the hustle and bustle of the wedding.
       </p>
     </div>
 
