@@ -42,7 +42,7 @@ const view = (params, model, dispatch) => html`
       Please indicate if you need or can offer a ride when you RSVP.
     </div>
     
-        <div class='sub-section'>
+    <div class='sub-section'>
       <h2>Food</h2>
       Meals will be buffet-style, with options to suit various preferences. We are omnivores, but there will be vegan, gluten-free, and dairy-free choices where possible.
       Alcohol will not be a major focus of the festivities, although it is welcome at the event. We're asking guests to please BYO your beverages of choice.
