@@ -10,7 +10,8 @@ const view = (params, model, dispatch) => html`
     <div class='sub-section'>
     <h2>The greatest gift we can imagine is spending time with you!</h2>
       <p>
-        We’re touched that you want to be with us on our special day, and there’s no need to give anything more. So please just bring your lovely selves, your good wishes, and your appetite!
+        We’re touched that you want to be with us on our special day, and there’s no need to give anything more.
+        So please just bring your lovely selves, your good wishes, and your appetite!
       </p>
 
       <p>
