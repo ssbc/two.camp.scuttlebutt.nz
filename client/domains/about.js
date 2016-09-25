@@ -12,11 +12,8 @@ const view = (params, model, dispatch) => html`
       <p>
         Our wedding is a rare opportunity to bring together our loved ones. 
         More than anything, we want to enjoy quality time with you, and give you the chance to meet one another. 
-      </p>
-      
-      <p>
         We hope to create a relaxed and spacious atmosphere in a lovely setting, where we can linger over good food and unhurried conversation. 
-        Help us celebrate our marriage by reveling in the joys of family, friends, community.
+        Help us celebrate our marriage by reveling in the joys of family, friends, and community.
       </p>
     </div>
 
@@ -95,7 +92,7 @@ const view = (params, model, dispatch) => html`
       <h2>Ceremony</h2>
 
       <p>
-        As an international couple, our ceremony will bring together traditions from different culture, including Jewish, Scottish, Kiwi, and some of our own.
+        As an international couple, our ceremony will bring together traditions from different cultures, including Jewish, Scottish, Kiwi, and some of our own.
       </p>
 
       <p>
@@ -106,20 +103,20 @@ const view = (params, model, dispatch) => html`
 
       <p>
         We’ll drink together from a <i><a href="https://en.wikipedia.org/wiki/Quaich" target="_blank">quaich</a></i>, the Scottish cup of love and friendship.
-        The two handles make the Quaich an ideal cup for sharing and incorporates trust between the giver and the receiver.
+        The two handles are for sharing, and incorporate trust between the giver and the receiver.
         Used in many ceremonies, at weddings the Quaich is seen as a symbol of the shared love between the couple.
       </p>
 
       <p>
         At the conclusion of the ceremony, a glass will be broken and everyone can shout <i>Mazel Tov!,</i> (congratulations).
-        Symbolically, it reminds us that life and love are fragile, like glass, and we must treat them with care.
-        It is also the shattering of the old and the beginning of the new.
+        Symbolically, it reminds us that life and love are fragile like glass, and we must treat them with care.
+        It is the shattering of the old and the beginning of the new.
+        At the moment of our great happiness, there is still suffering in the world.
         We only know sweetness alongside bitterness, and joy alongside sorrow.
-        At the moment of our great happiness, there is still suffering in the world, which requires our care and love. 
-      </p>
+        </p>
 
       <p>
-        Right after the ceremony, the bride and groom will retreat for a few moments to a <i>yichud room</i>, to spend a short secluded time together, so they can connect just to one another briefly in all the hustle and bustle of the wedding.
+        Right after the ceremony, the bride and groom will retreat for a few moments for <i>yichud</i>, to spend a few secluded moments together, to connect briefly in all the hustle and bustle of the wedding.
       </p>
     </div>
 
