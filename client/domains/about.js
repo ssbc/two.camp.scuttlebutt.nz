@@ -98,7 +98,7 @@ const view = (params, model, dispatch) => html`
       <p>
         The vows will take place under a <i><a href="https://en.wikipedia.org/wiki/Chuppah" target="_blank">chuppah</a></i>, a fabric canopy symbolising the home and life the newly married couple will build together.
         The poles are held by people close to the bride and groom, who will support their union and life together.
-        The side are open, to welcome people in with hospitality. 
+        The sides are open, to welcome people in with hospitality. 
       </p>
 
       <p>
@@ -116,7 +116,7 @@ const view = (params, model, dispatch) => html`
         </p>
 
       <p>
-        Right after the ceremony, the bride and groom will retreat for a few moments for <i>yichud</i>, to spend a few secluded moments together, to connect briefly in all the hustle and bustle of the wedding.
+        Right after the ceremony, the bride and groom will retreat for <i>yichud</i>, a few secluded moments together, to connect briefly to one another in all the hustle and bustle of the wedding.
       </p>
     </div>
 
