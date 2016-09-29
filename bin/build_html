@@ -1,0 +1,10 @@
+#!/bin/bash
+cp client/index.html public/
+cd public
+
+for i in $(ls ../client/domains); do
+  cp index.html ${i%.js}.html
+done
+
+cd ..
+

@@ -6,9 +6,10 @@
   "scripts": {
     "start": "node server.js",
     "prestart": "npm run build",
-    "build": "npm run build:js && npm run build:css",
+    "build": "npm run build:js && npm run build:css && npm run build:html",
     "build:js": "NODE_ENV=production browserify client/index.js -g uglifyify -o public/bundle.js",
     "build:css": "node-sass --include-path client/styles --output-style compressed client/index.scss public/style.css",
+    "build:html": "./bin/build_html",
     "watch:js": "watchify client/index.js -o public/bundle.js -dv",
     "watch:css": "node-sass --include-path client/styles -w client/index.scss public/style.css",
     "deploy": "gh-pages -d public",
