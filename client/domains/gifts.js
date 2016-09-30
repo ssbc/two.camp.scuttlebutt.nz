@@ -25,8 +25,7 @@ const view = (params, model, dispatch) => html`
 
     <div class='sub-section'>
       <p>
-        We acknowledge that people might like to show their support for us in different ways.
-        If you're dead set on giving us a gift, we would gratefully accept contributions toward buying our first home:
+        We have all the household items we need, but if you'd like to contribute to our dream of buying our own home, it would be greatly appreciated.
       </p>
 
       Paypal: <pre>kdynamic@gmail.com</pre> <br />
