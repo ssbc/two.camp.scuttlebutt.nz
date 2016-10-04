@@ -48,7 +48,7 @@ const view = (params, model, dispatch) => html`
           </tr>
           <tr>
             <td>14:00 </td>
-            <td> Cake & Toasts</td>
+            <td> Cake & toasts</td>
           </tr>
           <tr>
             <td>14:30 </td>
@@ -82,7 +82,7 @@ const view = (params, model, dispatch) => html`
           </tr>
           <tr>
             <td>11:00 + </td>
-            <td> more hanging out, clean up, pack down, depart</td>
+            <td> More hanging out, clean up, pack down, depart</td>
           </tr>
         </tbody>
       </table>
