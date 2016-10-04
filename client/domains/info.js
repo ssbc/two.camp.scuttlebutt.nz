@@ -50,8 +50,9 @@ const view = (params, model, dispatch) => html`
 
     <div class='sub-section'>
       <h2>Accommodation</h2>
-      Some guests will be staying overnight at the venue, either in the lodge or camping out. 
+      You are invited to stay overnight at the venue, either in the lodge or camping out.
       If you stay over, you’ll need to bring your own bedding or sleeping bag.
+      We'll help provide bedding for those traveling long distance who can't bring their own.
     </div>
     
         <div class='sub-section'>
