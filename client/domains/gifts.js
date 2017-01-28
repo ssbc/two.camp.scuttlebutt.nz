@@ -31,7 +31,7 @@ const view = (params, model, dispatch) => html`
       Paypal: <pre>kdynamic@gmail.com</pre> <br />
 
       NZ Bank Transfer: <br />
-      <pre>A S KRAUSE, J A IRVING</pre><br />
+      <pre>A S & J A IRVING</pre><br />
       <pre>38-9014-0578605-03</pre>
     </div>
     
