@@ -11,6 +11,5 @@ export default App([
   info,
   gifts,
   rsvp,
-  main,  // this will be the default view
+  main // this will be the default view
 ])
-

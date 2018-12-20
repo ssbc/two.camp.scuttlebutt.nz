@@ -12,6 +12,3 @@ export default (view) => (params, model, dispatch) => html`
     </div>
   </div>
 `
-
-
-

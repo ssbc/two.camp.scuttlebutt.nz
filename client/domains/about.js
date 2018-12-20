@@ -2,7 +2,7 @@ import html from 'yo-yo'
 import { Domain } from 'inux'
 
 import render from '../helpers/render'
- 
+
 const NAME = 'about'
 
 const view = (params, model, dispatch) => html`
@@ -126,7 +126,6 @@ const view = (params, model, dispatch) => html`
 export default Domain({
   name: NAME,
   routes: [
-    [NAME, render(view)],
+    [NAME, render(view)]
   ]
 })
- 

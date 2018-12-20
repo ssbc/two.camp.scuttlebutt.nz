@@ -1,6 +1,6 @@
 import html from 'yo-yo'
 
-const navTitles = "Main About Info Gifts RSVP".split(' ')
+const navTitles = 'Main About Info Gifts RSVP'.split(' ')
 
 const link = (title, activePath) => {
   const path = title === 'Main' ? '' : title.toLowerCase()
@@ -15,11 +15,10 @@ const link = (title, activePath) => {
   `
 }
 
-export default (activePath) =>  html`
+export default (activePath) => html`
   <div class='nav-background'>
     <div class='nav-bar'>
-      ${navTitles.map( title => link(title, activePath) )}
+      ${navTitles.map(title => link(title, activePath))}
     </div>
   </div>
 `
-

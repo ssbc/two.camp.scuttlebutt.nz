@@ -18,4 +18,3 @@ const map = () => html`
 `
 
 export default map
-

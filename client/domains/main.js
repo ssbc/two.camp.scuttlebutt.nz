@@ -5,7 +5,7 @@ import render from '../helpers/render'
 import map from '../partials/map'
 
 const NAME = 'main'
- 
+
 const view = (params, model, dispatch) => html`
   <div>
     <div class='main-title center'> 
@@ -27,7 +27,6 @@ export { view }
 export default Domain({
   name: NAME,
   routes: [
-    ['/', render(view)],
+    ['/', render(view)]
   ]
 })
- 

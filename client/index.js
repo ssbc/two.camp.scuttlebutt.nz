@@ -11,5 +11,4 @@ pull(
   pull.drain(function (view) {
     html.update(main, view)
   })
-) 
-
+)
