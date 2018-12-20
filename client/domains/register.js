@@ -3,7 +3,7 @@ import { Domain } from 'inux'
 
 import render from '../helpers/render'
 
-const NAME = 'rsvp'
+const NAME = 'register'
 
 const view = (params, model, dispatch) => html`
   <div class='rsvp'>

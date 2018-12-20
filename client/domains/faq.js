@@ -3,7 +3,7 @@ import { Domain } from 'inux'
 
 import render from '../helpers/render'
 
-const NAME = 'info'
+const NAME = 'faq'
 
 const view = (params, model, dispatch) => html`
   <div>

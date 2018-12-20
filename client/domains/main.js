@@ -9,13 +9,12 @@ const NAME = 'main'
 const view = (params, model, dispatch) => html`
   <div>
     <div class='main-title center'> 
-      <h1>Mix & Alanna's Wedding</h1>
-      <h2>January 10th 2017</h2>
+      <h1>SCUTTLE CAMP ONE</h1>
+      <h2>February 24-28 2019</h2>
     </div>
     
     <div class='rsvp-link center'>
-      <div><a href='rsvp' class='button '>RSVP</a> </div>
-      <div>Please respond by 20 November.</div>
+      <div><a href='register' class='button '>Register</a> </div>
     </div>
 
     ${map()}

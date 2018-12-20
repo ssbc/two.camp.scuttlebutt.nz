@@ -1,6 +1,6 @@
 import html from 'yo-yo'
 
-const navTitles = 'Main About Info Gifts RSVP'.split(' ')
+const navTitles = 'Main About FAQ Register'.split(' ')
 
 const link = (title, activePath) => {
   const path = title === 'Main' ? '' : title.toLowerCase()
