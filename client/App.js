@@ -1,13 +1,17 @@
 import { App } from 'inux'
 
-import about from './domains/about'
-import faq from './domains/faq'
-import register from './domains/register'
 import main from './domains/main'
+import location from './domains/location'
+import programme from './domains/programme'
+import faq from './domains/faq'
+import conduct from './domains/conduct'
+import register from './domains/register'
 
 export default App([
-  about,
+  location,
+  programme,
   faq,
+  conduct,
   register,
   main // this will be the default view
 ])

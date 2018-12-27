@@ -7,8 +7,11 @@ const NAME = 'register'
 
 const view = (params, model, dispatch) => html`
   <div class='rsvp'>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfu1cYi5XYRZGTag3LfuNk198LhxFgf9mK3puPQHuACaRau_g/viewform?embedded=true" width="400" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <h1 class='center'>COMING SOON</h1>
 
+    <!--
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiwaaiskYVLs97Z-JhoYdJYI485Sa22hrM7SJ7iXPf_JrOcA/viewform?embedded=true" width="960" height="2686" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    -->
   </div>
 `
 
