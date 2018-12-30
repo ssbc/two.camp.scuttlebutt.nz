@@ -1,5 +1,5 @@
-$link_color:   rebeccapurple;
-$active_color: rebeccapurple;
+$link_color:   black;
+$active_color: deeppink;
 
 html {
   overflow-y: scroll;
@@ -55,8 +55,12 @@ html {
       text-decoration: dotted;
     }
 
+    &:focus {
+      outline: none;
+    }
+
     &.activePath {
-      border-bottom: 1px solid $active_color;
+      border-bottom: 1px solid #000;
     }
   }
 }
@@ -95,10 +99,11 @@ html {
   }
 
   .rsvp-link {
+    margin: 3rem 0;
+
     a.button {
       font-size: 1.6rem;
       letter-spacing: 2px;
-      margin: 2rem;
 
       color: #fff;
       background-color: lightgray;
@@ -111,6 +116,10 @@ html {
         text-decoration: none;
       }
     }
+  }
+
+  .sponsors {
+    font-size: .8em
   }
 
   .map {

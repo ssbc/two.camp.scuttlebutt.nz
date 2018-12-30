@@ -23,6 +23,9 @@ const view = (params, model, dispatch) => html`
       <a href='register' class='button'>Register</a>
     </div>
 
+    <div class='sponsors center'>
+      This event is sponsored by <a href='https://www.protozoa.nz'>Protozoa</a> and Verse.
+    </div>
     
   </div>
 `
