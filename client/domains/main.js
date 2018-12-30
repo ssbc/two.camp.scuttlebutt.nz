@@ -12,7 +12,7 @@ const view = (params, model, dispatch) => html`
       <h2>2019 February 25-28</h2>
     </div>
 
-    <img src='images/cypherpunk.jpeg' />
+    <img src='images/cypherpunk.jpeg' class='main-splash' />
 
     <div class='sub-section center'>
       Welcome traveller! Scuttle-camp is a 4-day getaway, set in a sweet secluded location. <br />
