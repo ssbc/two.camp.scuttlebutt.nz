@@ -49,13 +49,17 @@ html {
   a {
     color: #000;
     text-decoration: none;
+    outline: none;
 
-    &:focus {
-      outline: none;
+    &:hover {
+      color: $active_color;
     }
 
     &.activePath {
       border-bottom: 1px solid #000;
+      &:hover {
+        border-bottom: 1px solid $active_color;
+      }
     }
   }
 }

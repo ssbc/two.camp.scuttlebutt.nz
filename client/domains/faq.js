@@ -49,6 +49,8 @@ const view = (params, model, dispatch) => html`
 
     <div class='sub-section'>
       <img src='images/river.jpg' />
+      <br />
+      This is Alanna by the river near the venue. She's helping organise the event too.
     </div>
 
     <div class='sub-section'>
