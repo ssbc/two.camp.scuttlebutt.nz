@@ -14,7 +14,8 @@ const view = (params, model, dispatch) => html`
     <div class='sub-section'>
       <p>
         This is totally a <strong>work in progress</strong>. <br /><br />
-        The format is going to be lifted largely from Enspiral Retreats - minimal formal structure such as opening and welcoming, a couple of hosted sessions, and then a lot of time for Open Space (sessions hosted by peers), swims in the river, and late night chats. 
+        The event is minimally formal - there will be an opening and welcoming, a couple of hosted sessions, and then a lot of time for whatever you want, if you want to discuss a particular thing with other interested parties, or lead a session on as issue you feel strongly about, you can do that.
+        you can also swim in the river, and stay up all night chatting about how to solve all the worlds problems. 
       </p>
 
       <div style='display: grid; grid-template-columns: 1fr 1fr; grid-gap:1rem;'>
